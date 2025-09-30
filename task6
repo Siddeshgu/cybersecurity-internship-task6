@@ -1,0 +1,116 @@
+1.Introduction:
+Passwords act as the first line of defense in cybersecurity, protecting user accounts and sensitive data. The objective of this task is to understand what makes a password strong by creating passwords with varying complexities and testing their strength using free online password strength checkers.
+
+2.Tools Used
+The passwords were tested on free online password strength testing tools such as bitwarden.com and passwordmeter.com.
+
+3.Methodology
+Multiple passwords were created with different levels of complexity:
+
+Lowercase only
+Mixing uppercase and lowercase letters
+Adding numbers
+Adding special characters
+Increasing password length
+
+Each password was evaluated on the strength checker, and results such as strength rating and estimated time to crack were recorded.
+
+Passwords used to carry out the process:
+
+mnopqrst (only lowercase, weak)
+
+Abcdef12 (uppercase, lowercase, numbers, moderate)
+
+p@ssw0rd! (special characters, numbers, letters, moderate)
+
+GkT7$vq3!s (mixed case, numbers, symbols, strong)
+
+Password    |  Complexity Features            |  Strength   |  Estimated Time to Crack
+------------+---------------------------------+-------------+-------------------------
+mnopqrst    |  Lowercase only                 |  Very Weak  |  Less than a second     
+Abcdef12    |  Uppercase, lowercase, numbers  |  Very Weak  |  5 seconds              
+GkT7$vq3!s  |  Mixed case, numbers, symbols   |  Good       |  12 days                
+4Nz@9mPQ!w  |  Mixed case, numbers, symbols   |  Good       |  12 days                
+
+4Nz@9mPQ!w (long, mixed case, numbers, symbols, very strong)
+
+4.Best Practices for Creating Strong Passwords
+Prioritize Password Length Over Complexity
+Longer passwords are exponentially harder to crack than shorter ones, even if the shorter ones have mixed characters. Aim for passwords at least 12 characters long or more for better security.
+
+Use Passphrases for Easy Memorability and Security
+Create passphrases by combining unrelated words or a meaningful sentence. For example, “SunsetsAreBeautiful2025!” is secure and easier to remember than random characters.
+
+Mix Character Types
+Use a combination of uppercase letters, lowercase letters, numbers, and special characters to increase complexity and resist attacks.
+
+Avoid Common Password Mistakes
+Do not use easily guessable passwords such as "123456," "password," or personal information like birthdates, names, or phone numbers. Avoid dictionary words and common patterns.
+
+Implement Multi-Factor Authentication (MFA)
+Adding MFA protects accounts even if a password is compromised by requiring additional verification.
+
+Use Password Managers
+Password managers help generate, store, and autofill unique, strong passwords for every site, reducing the risk of password reuse and weak passwords.
+
+Never Reuse Passwords Across Different Accounts
+Using unique passwords for each account prevents a breach on one platform from compromising other accounts.
+
+Regularly Update Your Passwords
+Change passwords periodically, especially if you suspect any have been compromised.
+
+5.Tips Learned from the Password Evaluation
+Length Matters Most: Longer passwords are significantly harder to crack than short ones, even if they contain fewer types of characters.
+
+Mix Character Types: Passwords that combine uppercase letters, lowercase letters, numbers, and special characters have higher strength scores.
+
+Avoid Using Only Letters: Passwords with only lowercase or uppercase letters are extremely weak and vulnerable to quick attacks.
+
+Numbers and Symbols Boost Security: Adding numbers and symbols greatly increases the estimated time needed to crack a password.
+
+Common Words Are Risky: Passwords made up of common words or simple sequences are very easy to break.
+
+Good Passwords Take Time to Crack: Strong passwords with mixed characters can extend crack times from seconds to days.
+
+Use Password Managers: They help generate complex passwords that meet best practices without the burden of memorization.
+
+Regular Testing Helps: Using strength checker tools regularly can guide users to improve their password quality.
+
+6.Common Password Attacks
+1. Brute Force Attack
+A brute force attack is a hacking method where attackers use trial and error to systematically guess passwords, login credentials, or encryption keys until they find the correct one. This method tries every possible combination of characters, making it a reliable, though time-consuming, tactic.
+
+Attackers often use automated tools to speed up the guessing process, testing millions of password combinations quickly.
+
+Strong passwords with longer length and complex characters take much longer to crack.
+
+Brute force attacks can be simple manual attempts but are mostly automated nowadays using software capable of guessing passwords rapidly.
+
+GPUs (graphics processing units) have accelerated brute force cracking speeds by enabling multiple password guesses to be tested simultaneously.
+
+2. Dictionary Attack
+A dictionary attack is a specialized form of brute force attack where the attacker tries only likely words from a precompiled list called a "dictionary," which may contain common words, phrases, leaked passwords, or variations.
+
+Attackers exploit the fact that many users select passwords based on common words, simple phrases, or predictable patterns.
+
+Dictionary attacks are faster than pure brute force because they limit the guesses to probable passwords.
+
+Hybrid attacks extend this by combining dictionary words with guessed characters or numbers.
+
+7.How Password Complexity Affects Security?
+Password complexity plays a crucial role in enhancing security by making passwords harder to guess or crack. Complex passwords typically include a combination of uppercase and lowercase letters, numbers, special characters, and sufficient length. These factors increase the number of possible combinations exponentially, which significantly raises the time and computational resources required for attackers to break the passwords.
+
+Complex passwords protect against brute force attacks by expanding the password search space, making exhaustive guess attempts infeasible.
+
+They also mitigate dictionary attacks by avoiding common words or predictable patterns.
+
+However, excessive complexity requirements can sometimes backfire, encouraging users to adopt predictable substitutions or reuse passwords.
+
+Modern best practices emphasize longer passwords (or passphrases) that are easy to remember but difficult to guess.
+
+Combining complexity with multi-factor authentication and password managers further strengthens security.
+
+Overall, complexity is essential but should be balanced with usability to ensure strong, memorable, and practical passwords.
+
+In conclusion, password complexity directly increases security by reducing the likelihood that a password can be guessed or cracked quickly, serving as a key defense mechanism against unauthorized access.
+
